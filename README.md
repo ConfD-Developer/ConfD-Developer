@@ -127,8 +127,11 @@ Add a README.md. Your README.md must include:
 ### It must be open
 The whole point of the ConfD Developer space is to share code with the ConfD ecosystem. As such, we don’t want to make it “private”. However, that means that anyone can access the ConfD Developer repositories, which requires us to approve the open access and ensure that no private information is included.
 
+### LICENSE
+Add a LICENSE file so that the license is kept with the repository, we suggest using Apache 2.0 license. This makes it clear for anyone how the code can be used, modified and distributed.
+
 ### Recommendations
-*	Test cases: Add test cases and instructions on how to run them. We recommend using Lux to automate your tests? ConfD uses it!
+*	Test cases: Add test cases and instructions on how to run them. We recommend using Lux to automate your tests - ConfD uses it!
 
 *	Packaging: Make one repository for every standalone project. However, don’t make a lot of small repositories for things that actually belong together. It just makes the space cluttered and it will be harder to find your project.
 
